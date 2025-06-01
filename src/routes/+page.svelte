@@ -64,7 +64,7 @@
     <p>No matching champions found.</p>
 {/if}
 
-<h1>Cinema Collection</h1>
+<h1>Cinematic Collection</h1>
 
 <div class="container video-grid">
   <div class="row g-4">
