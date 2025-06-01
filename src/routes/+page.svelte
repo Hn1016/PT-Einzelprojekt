@@ -66,58 +66,83 @@
 
 <h1>Cinema Collection</h1>
 
-<div class="videos">
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/I76wvt0aEE4"
-    title="Champion Video 1"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
+<div class="container video-grid">
+  <div class="row g-4">
+    <div class="col-md-6">
+      <iframe
+        class="video-frame w-100"
+        height="315"
+        src="https://www.youtube.com/embed/I76wvt0aEE4"
+        title="Champion Video 1"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <div class="video-title">Champion Video 1</div>
+    </div>
 
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/ZHhqwBwmRkI"
-    title="Champion Video 2"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
+    <div class="col-md-6">
+      <iframe
+        class="video-frame w-100"
+        height="315"
+        src="https://www.youtube.com/embed/ZHhqwBwmRkI"
+        title="Champion Video 2"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <div class="video-title">Champion Video 2</div>
+    </div>
 
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/aR-KAldshAE"
-    title="Champion Video 3"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
+    <div class="col-md-6">
+      <iframe
+        class="video-frame w-100"
+        height="315"
+        src="https://www.youtube.com/embed/aR-KAldshAE"
+        title="Champion Video 3"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <div class="video-title">Champion Video 3</div>
+    </div>
 
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/zF5Ddo9JdpY"
-    title="Champion Video 4"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
+    <div class="col-md-6">
+      <iframe
+        class="video-frame w-100"
+        height="315"
+        src="https://www.youtube.com/embed/zF5Ddo9JdpY"
+        title="Champion Video 4"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <div class="video-title">Champion Video 4</div>
+    </div>
+  </div>
 </div>
 
 <style>
-  .videos {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  .video-grid {
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
-  .videos iframe {
-    max-width: 100%;
-    border-radius: 8px;
+  .video-frame {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+  }
+
+  .video-frame:hover {
+    transform: scale(1.03);
+  }
+
+  .video-title {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  body {
+    background-color: #1c1e21; /* Dark background */
+    color: #eee;
   }
 </style>
