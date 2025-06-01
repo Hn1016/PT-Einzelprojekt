@@ -29,10 +29,17 @@
     <input type="number" id="age" name="age" value={player.age} required />
   </div>
 
-  <div class="form-actions">
-    <button type="submit" name="action" value="update" class="btn-primary">Update Player</button>
-    <button type="submit" name="action" value="delete" class="btn btn-danger">Delete</button>
-  </div>
+  <div>
+  <button type="submit" name="action" value="update" class="btn-primary">
+    Update Player
+  </button>
+</div>
+
+<div style="margin-top: 10px;">
+  <button type="submit" name="action" value="delete" class="btn btn-danger">
+    Delete
+  </button>
+</div>
 </form>
 
 {#if data.form?.success}
