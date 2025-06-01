@@ -73,7 +73,7 @@
         class="video-frame w-100"
         height="315"
         src="https://www.youtube.com/embed/I76wvt0aEE4"
-        title="Champion Video 1"
+        title="Season 2025"
         frameborder="0"
         allowfullscreen
       ></iframe>
@@ -85,7 +85,7 @@
         class="video-frame w-100"
         height="315"
         src="https://www.youtube.com/embed/ZHhqwBwmRkI"
-        title="Champion Video 2"
+        title="Season 2024"
         frameborder="0"
         allowfullscreen
       ></iframe>
@@ -97,7 +97,7 @@
         class="video-frame w-100"
         height="315"
         src="https://www.youtube.com/embed/aR-KAldshAE"
-        title="Champion Video 3"
+        title="Season 2020"
         frameborder="0"
         allowfullscreen
       ></iframe>
@@ -109,7 +109,7 @@
         class="video-frame w-100"
         height="315"
         src="https://www.youtube.com/embed/zF5Ddo9JdpY"
-        title="Champion Video 4"
+        title="Season 2019"
         frameborder="0"
         allowfullscreen
       ></iframe>
@@ -141,8 +141,5 @@
     color: #fff;
   }
 
-  body {
-    background-color: #1c1e21; /* Dark background */
-    color: #eee;
-  }
+  
 </style>
