@@ -77,7 +77,7 @@
         frameborder="0"
         allowfullscreen
       ></iframe>
-      <div class="video-title">Champion Video 1</div>
+      <div class="video-title">Season 2025</div>
     </div>
 
     <div class="col-md-6">
@@ -89,7 +89,7 @@
         frameborder="0"
         allowfullscreen
       ></iframe>
-      <div class="video-title">Champion Video 2</div>
+      <div class="video-title">Season 2024</div>
     </div>
 
     <div class="col-md-6">
@@ -101,7 +101,7 @@
         frameborder="0"
         allowfullscreen
       ></iframe>
-      <div class="video-title">Champion Video 3</div>
+      <div class="video-title">Season 2020</div>
     </div>
 
     <div class="col-md-6">
@@ -113,7 +113,7 @@
         frameborder="0"
         allowfullscreen
       ></iframe>
-      <div class="video-title">Champion Video 4</div>
+      <div class="video-title">Season 2019</div>
     </div>
   </div>
 </div>
